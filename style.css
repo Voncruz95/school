@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+ background-color: black;
+    background-image: url(./images/images\ \(5\).jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.white-container {
+    background-color: white;
+    display: flex;
+    width: 100%;
+    height: 70px;
+    border: 1px solid;
+    color: black;
+    padding-inline: 10px;
+}
+
+.white-container h1, .white-container h2, .white-container input {
+    margin-inline: 40px;
+}
+
+.white-container input {
+    width: 600px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 1.1em;
+}
+
+.white-container button {
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    border: none;
+    margin-top: 7px;
+}
+
+.white-container button:hover {
+    background-color: hsl(47, 100%, 50%);
+    color: hsl(0, 2%, 45%);
+}
+
+.white-container button:focus {
+    background-color: green;
+    color: white;
+}
+.white-container h1, .white-container h2 {
+    display: flex;
+}
+
+.top-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.left-container {
+    margin: 10px;
+    display: grid;
+    background-color: white;
+    width: 250px;
+    height: 400px;
+    line-height: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 100px;
+}
+
+.left-container p:hover {
+    color: orange;
+}
+
+.white-container h1:hover{
+    color: orange;
+}
+
+.white-container h2:hover{
+    color: orange;
+}
+
+
+.right-container {
+    display: grid;
+    margin-right: 100px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.bottom-container {
+    display: flex;
+    border: 1px solid;
+   width: 83%;
+   height: 280px;
+   border-radius: 10px;
+   background-color: white;
+   padding: 20px;
+   justify-content: center;
+   align-content: center;
+   justify-content: space-between;
+   margin: 10px auto 100px;
+    display: none;
+}
+
+.container {
+    display: grid;
+}
+
+#container {
+    display: grid;
+    text-align: center;
+    font-weight: bolder;
+    font-size: large;
+}
+.bottom-container img {
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.bottom-container img:hover {
+    box-shadow: 2px 3px 5px  black;
+}
+#select {
+    text-decoration: none;
+    border: none;
+}
+
+@media screen {
+    
+}
